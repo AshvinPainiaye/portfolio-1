@@ -93,37 +93,34 @@ body {
 }
 
 body {
-  background-image: url('../images/melbourne-sunset_17134961335_o.jpg');
-  background-size: 120%;
-  background-position: top;
-  font-family: 'Roboto', sans-serif !important;
-}
-
-.navbar .navbar-nav {
-  display: inline-block !important;
-  float: none !important;
-  vertical-align: top !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    background-image: url('../images/melbourne-sunset_17134961335_o.jpg');
+    background-size: 120%;
+    background-position: top;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .navbar-default {
-  background-color: rgba(0, 0, 0, 0.3);
-  border: none;
-
-}
-
-.navbar .navbar-collapse {
-  text-align: center !important;
-}
-
-.nav > li {
-  padding-right: 40px !important;
-  a {
-    text-transform: uppercase;
-    color: black !important;
-    &:hover {
-      background-color: white !important;;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    .navbar-collapse {
+        text-align: center;
+        .navbar-nav {
+            display: inline-block;
+            float: none !important;
+            vertical-align: top;
+            li {
+                margin-right: 40px;
+                &:hover {
+                    background-color: #ffffff;
+                    ;
+                }
+                a {
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+            }
+        }
     }
-  }
 }
